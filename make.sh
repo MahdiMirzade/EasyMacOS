@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # make.sh: Generate customized libvirt XML.
-# by Foxlet <foxlet@furcode.co>
+# by MSXtm <admin@msxtm.ir>
 
 VMDIR=$PWD
 MACHINE="$(qemu-system-x86_64 --machine help | grep q35 | cut -d" " -f1 | grep -Eoe ".*-[0-9.]+" | sort -rV | head -1)"
