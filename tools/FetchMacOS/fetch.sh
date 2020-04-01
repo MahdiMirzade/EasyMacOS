@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # fetch.sh: Run fetch-macos.py with safety checks
-# by Foxlet <foxlet@furcode.co>
+# by MSXtm <admin@msxtm.ir>
 
 set +x;
 SCRIPTDIR="$(dirname "$0")";
