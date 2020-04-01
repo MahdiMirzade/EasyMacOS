@@ -23,26 +23,26 @@ iface tap0 inet dhcp
 ## 2. Using NetworkManager
 You can use NetworkManager to control the bridge and tun/tap interfaces, by creating them with the following commands. Replace `DEVICENAME` with your ethernet card's device name.
 
-### [2.a] Make the Bridge
+#### Make the Bridge
 ```
 nmcli connection add type bridge \
     ifname br1 con-name mybridge
 ```
 
-### [2.b] Attach Bridge to Ethernet
+#### Attach Bridge to Ethernet
 ```
 nmcli connection add type bridge-slave \
     ifname DEVICENAME con-name mynetwork master br1
 ```
 
-### [2.c] Make the Tun/Tap
+#### Make the Tun/Tap
 ```
 nmcli connection add type tun \
     ifname tap0 con-name mytap \
     mode tap owner `id -u`
 ```
 
-### [2.d] Attach Tun/Tap to Bridge
+#### Attach Tun/Tap to Bridge
 ```
 nmcli connection mod mytap connection.slave-type bridge \
     connection.master br1
