@@ -57,15 +57,12 @@ HEADLESS=1 MEM=2G CPUS=2 SYSTEM_DISK=MyDisk.qcow2 ./headless.sh
 <hr></hr>
 
 #### Step 3
-
 You're done!
 
 To fine-tune the system and improve performance, look in the `docs` folder for more information on [adding memory](docs/guide-performance.md), setting up [bridged networking](docs/guide-networking.md), adding [passthrough hardware (for GPUs)](docs/guide-passthrough.md), tweaking [screen resolution](docs/guide-screen-resolution.md), and enabling sound features.
 <br />
-**This code is By** [@Foxlet](https://github.com/foxlet), <b>and the help of many others, 
-    But MSX have developed a cleaner version of it, so you can enjoy ! </b>
-<hr></hr>
-
-### Other ScreenShots
 ![alt text](https://raw.githubusercontent.com/msxtm/ScreenShots/master/EasyMacOS_AboutThisMac.png "About This Mac's Screen Shoot")
 
+<b>This code is By</b> [@Foxlet](https://github.com/foxlet), <b>and the help of many others, 
+    But MSX have developed a cleaner version of it, so you can enjoy ! </b>
+<hr></hr>
