@@ -110,4 +110,3 @@
     <qemu:arg value='type=2'/>
   </qemu:commandline>
 </domain>
-
