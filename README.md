@@ -1,11 +1,15 @@
-# macOS-Simple-KVM
-Documentation to set up a simple macOS VM in QEMU, accelerated by [KVM](https://en.wikipedia.org/wiki/Kernel-based_Virtual_Machine).
+<center><h1> MacOS-Simple-KVM </h1></center>
+![GitHub followers](https://img.shields.io/github/followers/msxtm?label=Follow%20US&style=social)
+
+Read this documentation to set up a simple macOS VM in QEMU, accelerated by [KVM](https://en.wikipedia.org/wiki/Kernel-based_Virtual_Machine).
+
+![alt text](https://raw.githubusercontent.com/msxtm/ScreenShots/master/EasyMacOS_AboutThisMac.png)
 
 New to macOS and KVM? Check [the FAQs.](docs/FAQs.md)
 
 Want Installation Toturials? 🇦🇺 [English(Global)](https://www.youtube.com/watch?v=6ZihYY6YMxM) | 🇮🇷 Persian : ❌
 
-## Getting Started
+### Getting Started
 You'll need a Linux system with `qemu` (3.1 or later), `python3`, `pip` and the KVM modules enabled. A Mac is **not** required. Some examples for different distributions:
 
 ```
@@ -16,7 +20,7 @@ sudo pacman -S qemu python python-pip            # for Arch.
 sudo zypper in qemu-tools qemu-kvm qemu-x86 qemu-audio-pa python3-pip  # for openSUSE Tumbleweed
 ```
 
-## Step 1
+### Step 1
 Run `jumpstart.sh` to download installation media for macOS (internet required). The default installation uses Catalina, but you can choose which version to get by adding either `--high-sierra`, `--mojave`, or `--catalina`. For example:
 ```
 ./jumpstart.sh --mojave
