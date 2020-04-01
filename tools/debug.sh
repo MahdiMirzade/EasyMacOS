@@ -35,4 +35,3 @@ if [ -x "$(command -v pip)" ]; then
 else
     echo "pip is not installed." >&2
 fi
-
