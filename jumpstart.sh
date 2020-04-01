@@ -15,6 +15,8 @@ print_usage() {
     echo " -c, --catalina      Fetch Catalina media."
     echo
     echo
+    echo "⚡️ MSXtm"
+    echo 
     echo "  - - - - - - - - - - - - - - "
     echo " | github.com/MSXtm/easyMacOS |"
     echo "  - - - - - - - - - - - - - - "
