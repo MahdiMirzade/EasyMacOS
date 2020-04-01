@@ -23,7 +23,8 @@ Run `jumpstart.sh` to download installation media for MacOS (internet required).
 ```
 ./jumpstart.sh --mojave
 ```
-<center><img src="https://raw.githubusercontent.com/msxtm/ScreenShots/master/EasyMacOS_JumpStart.png" alt="Jumpstart's Help Instructions" style="text-align: center;"></center>
+<img src="https://raw.githubusercontent.com/msxtm/ScreenShots/master/EasyMacOS_JumpStart.png" alt="Jumpstart's Help Instructions" style="text-align: center;">
+
 > Note: You can skip this if you already have `BaseSystem.img` downloaded, But if you have `BaseSystem.dmg`, you will need to convert it with the `dmg2img` tool.
 <hr></hr>
 
@@ -38,7 +39,7 @@ and add it to the end of `basic.sh`:
     -drive id=SystemDisk,if=none,file=MyDisk.qcow2 \
     -device ide-hd,bus=sata.4,drive=SystemDisk \
 ```
-<center><img src="https://raw.githubusercontent.com/msxtm/ScreenShots/master/EasyMacOS_Basic.png" alt="Basic's Added Lines" style="text-align: center;"></center>
+<img src="https://raw.githubusercontent.com/msxtm/ScreenShots/master/EasyMacOS_Basic.png" alt="Basic's Added Lines" style="text-align: center;">
 
 > Note: If you're running on a headless system (such as on Cloud providers), you will need `-nographic` and `-vnc :0 -k en-us` for VNC support.
 
