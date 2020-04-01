@@ -23,7 +23,8 @@ Run `jumpstart.sh` to download installation media for MacOS (internet required).
 ```
 ./jumpstart.sh --mojave
 ```
-<center>![alt text](https://raw.githubusercontent.com/msxtm/ScreenShots/master/EasyMacOS_JumpStart.png "Jumpstart's Help Instructions")</center>
+![alt text](https://raw.githubusercontent.com/msxtm/ScreenShots/master/EasyMacOS_JumpStart.png "Jumpstart's Help Instructions")
+<center><img src="https://raw.githubusercontent.com/msxtm/ScreenShots/master/EasyMacOS_JumpStart.png" alt="Jumpstart's Help Instructions"></center>
 > Note: You can skip this if you already have `BaseSystem.img` downloaded, But if you have `BaseSystem.dmg`, you will need to convert it with the `dmg2img` tool.
 <hr></hr>
 
