@@ -11,3 +11,7 @@ A: If the cloud provider supports nested KVM as well as the necessary CPU instru
    In some cases only certain tiers will work as the CPU need to be supported.
    
    For DigitalOcean, this means a `General Purpose` or `CPU Optimized` machine is required. `Ubuntu 19.04` or newer is recommended.
+
+## Q: I have another question!
+A: <a href = "https://github.com/msxtm/EasyMacOS/tree/master/docs">Read More Documents</a>
+   If it isn't helpful for you, then <a href="http://t.me/MahdyMirzade">Contact me in telegram</a>.
