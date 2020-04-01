@@ -1,4 +1,4 @@
-![alt text](https://raw.githubusercontent.com/msxtm/ScreenShots/master/EasyMacOS_LockScreen.png)
+![alt text](https://raw.githubusercontent.com/msxtm/ScreenShots/master/EasyMacOS_LockScreen.png "Mojave's Screen Lock")
 
 <center><h1> EasyMacOS-KVM </h1></center>
 Read this documentation to set up a simple macOS VM in QEMU, accelerated by [KVM](https://en.wikipedia.org/wiki/Kernel-based_Virtual_Machine).
@@ -6,8 +6,9 @@ Read this documentation to set up a simple macOS VM in QEMU, accelerated by [KVM
 New to macOS and KVM? Check [the FAQs.](docs/FAQs.md)
 
 Want Installation Toturials? 🇦🇺 [English(Global)](https://www.youtube.com/watch?v=6ZihYY6YMxM) | 🇮🇷 Persian : ❌
-![alt text](https://raw.githubusercontent.com/msxtm/ScreenShots/master/EasyMacOS_AboutThisMac.png)
+
 ### Getting Started
+![alt text](https://raw.githubusercontent.com/msxtm/ScreenShots/master/EasyMacOS_AboutThisMac.png "About This Mac's Screen Shoot")
 You'll need a Linux system with `qemu` (3.1 or later), `python3`, `pip` and the KVM modules enabled. A Mac is **not** required. Some examples for different distributions:
 
 ```
