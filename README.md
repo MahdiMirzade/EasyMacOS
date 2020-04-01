@@ -1,8 +1,7 @@
-<center><h1> MacOS-Simple-KVM </h1></center>
-<img alt="GitHub followers" src="https://img.shields.io/github/followers/msxtm?style=social">
-Read this documentation to set up a simple macOS VM in QEMU, accelerated by [KVM](https://en.wikipedia.org/wiki/Kernel-based_Virtual_Machine).
-
 ![alt text](https://raw.githubusercontent.com/msxtm/ScreenShots/master/EasyMacOS_AboutThisMac.png)
+
+<center><h1> MacOS-Simple-KVM </h1></center>
+Read this documentation to set up a simple macOS VM in QEMU, accelerated by [KVM](https://en.wikipedia.org/wiki/Kernel-based_Virtual_Machine).
 
 New to macOS and KVM? Check [the FAQs.](docs/FAQs.md)
 
