@@ -36,11 +36,11 @@ and add it to the end of `basic.sh`:
 
 Then run `basic.sh` to start the machine and install macOS. Remember to partition in Disk Utility first!
 
-### Step 2.a (Virtual Machine Manager)
+#### Step 2.a (Virtual Machine Manager)
 1. If instead of QEMU, you'd like to import the setup into Virt-Manager for further configuration, just run `sudo ./make.sh --add`.
 2. After running the above command, add `MyDisk.qcow2` as storage in the properties of the newly added entry for VM.
 
-### Step 2.b (Headless Systems)
+#### Step 2.b (Headless Systems)
 If you're using a cloud-based/headless system, you can use `headless.sh` to set up a quick VNC instance. Settings are defined through variables as seen in the following example. VNC will start on port `5900` by default.
 ```
 HEADLESS=1 MEM=2G CPUS=2 SYSTEM_DISK=MyDisk.qcow2 ./headless.sh
@@ -51,10 +51,8 @@ HEADLESS=1 MEM=2G CPUS=2 SYSTEM_DISK=MyDisk.qcow2 ./headless.sh
 You're done!
 
 To fine-tune the system and improve performance, look in the `docs` folder for more information on [adding memory](docs/guide-performance.md), setting up [bridged networking](docs/guide-networking.md), adding [passthrough hardware (for GPUs)](docs/guide-passthrough.md), tweaking [screen resolution](docs/guide-screen-resolution.md), and enabling sound features.
-
-This code is By [@FoxletFox](https://twitter.com/foxletfox), and the help of many others. 
-But MSX have developed a cleaner version of it, so you can enjoy !
-
+**This code is By** [@Foxlet](https://github.com/foxlet), **and the help of many others, But MSX have developed a cleaner version of it, so you can enjoy ! **
+<br />
 🇦🇺 [English(Global) Installation Toturial](https://www.youtube.com/watch?v=6ZihYY6YMxM)
 
 🇮🇷 Persian Installation Toturial: working on it...
