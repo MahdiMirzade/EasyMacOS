@@ -8,7 +8,7 @@ OVMF=$VMDIR/firmware
 
 qemu-system-x86_64 \
     -enable-kvm \
-    -m 4G \
+    -m 2G \
     -machine q35,accel=kvm \
     -smp 4,cores=2 \
     -cpu Penryn,vendor=GenuineIntel,kvm=on,+sse3,+sse4.2,+aes,+xsave,+avx,+xsaveopt,+xsavec,+xgetbv1,+avx2,+bmi2,+smep,+bmi1,+fma,+movbe,+invtsc \
@@ -26,5 +26,3 @@ qemu-system-x86_64 \
     -device ide-hd,bus=sata.2,drive=ESP \
     -drive id=InstallMedia,format=raw,if=none,file=BaseSystem.img \
     -device ide-hd,bus=sata.3,drive=InstallMedia \
-    -drive id=SystemDisk,if=none,file=MyDisk.qcow2 \
-    -device ide-hd,bus=sata.4,drive=SystemDisk \
