@@ -3,6 +3,8 @@ Documentation to set up a simple macOS VM in QEMU, accelerated by [KVM](https://
 
 New to macOS and KVM? Check [the FAQs.](docs/FAQs.md)
 
+Want Installation Toturials? 🇦🇺 [English(Global)](https://www.youtube.com/watch?v=6ZihYY6YMxM) | 🇮🇷 Persian : ❌
+
 ## Getting Started
 You'll need a Linux system with `qemu` (3.1 or later), `python3`, `pip` and the KVM modules enabled. A Mac is **not** required. Some examples for different distributions:
 
@@ -52,8 +54,5 @@ You're done!
 
 To fine-tune the system and improve performance, look in the `docs` folder for more information on [adding memory](docs/guide-performance.md), setting up [bridged networking](docs/guide-networking.md), adding [passthrough hardware (for GPUs)](docs/guide-passthrough.md), tweaking [screen resolution](docs/guide-screen-resolution.md), and enabling sound features.
 <br />
-**This code is By** [@Foxlet](https://github.com/foxlet), <b>and the help of many others, But MSX have developed a cleaner version of it, so you can enjoy ! </b>
-<br />
-🇦🇺 [English(Global) Installation Toturial](https://www.youtube.com/watch?v=6ZihYY6YMxM)
-
-🇮🇷 Persian Installation Toturial: working on it...
+**This code is By** [@Foxlet](https://github.com/foxlet), <b>and the help of many others, 
+    But MSX have developed a cleaner version of it, so you can enjoy ! </b>
