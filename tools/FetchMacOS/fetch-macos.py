@@ -156,3 +156,4 @@ def fetchmacos(output_dir="BaseSystem/", catalog_version="10.15", catalog_id="Pu
 
 if __name__ == "__main__":
     fetchmacos()
+    
