@@ -10,16 +10,20 @@ Want Installation Toturials? 🇦🇺 [English(Global)](https://www.youtube.com/
 ### Getting Started
 You'll need a Linux system with `qemu` _`(3.1 or later)`_, `python3`, `pip` and the KVM modules enabled. A Mac is **not** required. Some examples for different distributions:
 
-![alt text](https://raw.githubusercontent.com/msxtm/ScreenShots/master/EasyMacOS_InstallNeeded.png "Install Requirements for your linux system.")
+![alt text](https://raw.githubusercontent.com/msxtm/ScreenShots/master/EasyMacOS_InstallNeeded.png "Install Requirements for your linux pc.")
 
-### Step 1
-Run `jumpstart.sh` to download installation media for macOS (internet required). The default installation uses Catalina, but you can choose which version to get by adding either `--high-sierra`, `--mojave`, or `--catalina`. For example:
+### How To Install
+To Install your own MacOS, You have to follow these steps.
+
+#### Step 1
+Run `jumpstart.sh` to download installation media for MacOS (internet required). The default installation uses Catalina, but you can choose which version to get by adding either `--high-sierra`, `--mojave`, or `--catalina`. For example:
 ```
 ./jumpstart.sh --mojave
 ```
-> Note: You can skip this if you already have `BaseSystem.img` downloaded. If you have `BaseSystem.dmg`, you will need to convert it with the `dmg2img` tool.
+![alt text](https://raw.githubusercontent.com/msxtm/ScreenShots/master/EasyMacOS_JumpStart.png "Jumpstart's Help Instructions")
+> Note: You can skip this if you already have `BaseSystem.img` downloaded, But if you have `BaseSystem.dmg`, you will need to convert it with the `dmg2img` tool.
 
-## Step 2
+#### Step 2
 Create an empty hard disk using `qemu-img`, changing the name and size to preference:
 ```
 qemu-img create -f qcow2 MyDisk.qcow2 32G
@@ -30,6 +34,7 @@ and add it to the end of `basic.sh`:
     -drive id=SystemDisk,if=none,file=MyDisk.qcow2 \
     -device ide-hd,bus=sata.4,drive=SystemDisk \
 ```
+![alt text](https://raw.githubusercontent.com/msxtm/ScreenShots/master/EasyMacOS_Basic.png "Basic's Added Lines")
 > Note: If you're running on a headless system (such as on Cloud providers), you will need `-nographic` and `-vnc :0 -k en-us` for VNC support.
 
 Then run `basic.sh` to start the machine and install macOS. Remember to partition in Disk Utility first!
@@ -44,7 +49,7 @@ If you're using a cloud-based/headless system, you can use `headless.sh` to set 
 HEADLESS=1 MEM=2G CPUS=2 SYSTEM_DISK=MyDisk.qcow2 ./headless.sh
 ```
 
-## Step 3
+#### Step 3
 
 You're done!
 
