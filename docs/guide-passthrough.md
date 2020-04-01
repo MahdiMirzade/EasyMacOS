@@ -1,6 +1,5 @@
-Guide to PCIe Passthrough
-=========================
-
+<b>Guide to PCIe Passthrough</b><br />
+<b> = = = = = = = = = = = = = =</b><br />
 ## Enable BIOS features
 To use PCIe Passthrough, you will need a compatible motherboard and CPU with support for iommu. Look up your motherboard manual on how to enable these features, but they are commonly named `VT-d` or `AMD Vi`.
 
@@ -11,7 +10,7 @@ To pass through a card, you'll need to know some value pertaining to the card it
 lspci -nn | grep "VGA\|Audio"
 ```
 
-### Example
+#### Example
 An example output might look like this:
 
 ```
@@ -27,12 +26,12 @@ The `vfio-pci` module is not included in the kernel on all systems, you may need
 ## Add Kernel Flags
 The `iommu` kernel module is not enabled by default, but you can enable it on boot by passing the following flags to the kernel. Replace the Device IDs with your corresponding card.
 
-### AMD
+#### AMD
 ```
 iommu=pt amd_iommu=on vfio-pci.ids=1002:66af,1002:ab20
 ```
 
-### Intel
+#### Intel
 ```
 iommu=pt intel_iommu=on vfio-pci.ids=1002:66af,1002:ab20
 ```
