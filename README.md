@@ -8,16 +8,9 @@ New to macOS and KVM? Check [the FAQs.](docs/FAQs.md)
 Want Installation Toturials? 🇦🇺 [English(Global)](https://www.youtube.com/watch?v=6ZihYY6YMxM) | 🇮🇷 Persian : ❌
 
 ### Getting Started
-![alt text](https://raw.githubusercontent.com/msxtm/ScreenShots/master/EasyMacOS_AboutThisMac.png "About This Mac's Screen Shoot")
-You'll need a Linux system with `qemu` (3.1 or later), `python3`, `pip` and the KVM modules enabled. A Mac is **not** required. Some examples for different distributions:
+You'll need a Linux system with `qemu` _`(3.1 or later)`_, `python3`, `pip` and the KVM modules enabled. A Mac is **not** required. Some examples for different distributions:
 
-```
-sudo apt-get install qemu-system qemu-utils python3 python3-pip  # for Ubuntu, Debian, Mint, and PopOS.
-sudo xbps-install -Su qemu python3 python3-pip   # for Void Linux.
-sudo dnf install qemu qemu-img python3 python3-pip # for Fedora
-sudo pacman -S qemu python python-pip            # for Arch.
-sudo zypper in qemu-tools qemu-kvm qemu-x86 qemu-audio-pa python3-pip  # for openSUSE Tumbleweed
-```
+![alt text](https://raw.githubusercontent.com/msxtm/ScreenShots/master/EasyMacOS_InstallNeeded.png "Install Requirements for your linux system.")
 
 ### Step 1
 Run `jumpstart.sh` to download installation media for macOS (internet required). The default installation uses Catalina, but you can choose which version to get by adding either `--high-sierra`, `--mojave`, or `--catalina`. For example:
@@ -59,3 +52,6 @@ To fine-tune the system and improve performance, look in the `docs` folder for m
 <br />
 **This code is By** [@Foxlet](https://github.com/foxlet), <b>and the help of many others, 
     But MSX have developed a cleaner version of it, so you can enjoy ! </b>
+    
+    ![alt text](https://raw.githubusercontent.com/msxtm/ScreenShots/master/EasyMacOS_AboutThisMac.png "About This Mac's Screen Shoot")
+
