@@ -24,4 +24,3 @@ qemu-system-x86_64 \
     -device vmxnet3,netdev=net0,id=net0,mac=52:54:00:09:49:17 \
     -drive id=ESP,if=virtio,format=qcow2,file=ESP.qcow2 \
     -drive id=MyDisk,if=virtio,format=qcow2,file=MyDisk.qcow2 \
-
