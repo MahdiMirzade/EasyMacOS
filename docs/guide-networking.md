@@ -6,7 +6,7 @@
 To set up bridged networking for the macOS VM, use one of the following methods:
 
 
-## 1. Using /etc/network/interfaces
+## A. Using /etc/network/interfaces
 
 It is possible to create the bridge and tun/tap interfaces by adding the following lines to `/etc/network/interfaces`. Replace `DEVICENAME` with your ethernet card's device name, and `MYUSERNAME` with the user that is starting the VM.
 
@@ -20,7 +20,7 @@ iface tap0 inet dhcp
   pre-up tunctl -u MYUSERNAME -t tap0
 ```
 
-## 2. Using NetworkManager
+## B. Using NetworkManager
 You can use NetworkManager to control the bridge and tun/tap interfaces, by creating them with the following commands. Replace `DEVICENAME` with your ethernet card's device name.
 
 #### Make the Bridge
@@ -48,7 +48,7 @@ nmcli connection mod mytap connection.slave-type bridge \
     connection.master br1
 ```
 
-## 3. Attach Bridge to QEMU
+## C. Attach Bridge to QEMU
 Once you have set up the bridge and tun/tap on the host, you'll have to add the following line to `basic.sh`, replacing `-netdev user,id=net0`. Change `tap0` to your corresponding device name.
 
 ```
