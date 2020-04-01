@@ -1,16 +1,18 @@
 ![alt text](https://raw.githubusercontent.com/msxtm/ScreenShots/master/EasyMacOS_LockScreen.png "Mojave's Screen Lock")
 
-<center><h1> EasyMacOS-KVM </h1></center>
+# EasyMacOS-KVM
 Read this documentation to set up a simple macOS VM in QEMU, accelerated by [KVM](https://en.wikipedia.org/wiki/Kernel-based_Virtual_Machine).
 
 New to macOS and KVM? Check [the FAQs.](docs/FAQs.md)
 
 Want Installation Toturials? 🇦🇺 [English(Global)](https://www.youtube.com/watch?v=6ZihYY6YMxM) | 🇮🇷 Persian : ❌
+<hr></hr>
 
 ### Getting Started
 You'll need a Linux system with `qemu` _`(3.1 or later)`_, `python3`, `pip` and the KVM modules enabled. A Mac is **not** required. Some examples for different distributions:
 
 ![alt text](https://raw.githubusercontent.com/msxtm/ScreenShots/master/EasyMacOS_InstallNeeded.png "Install Requirements for your linux pc.")
+<hr></hr>
 
 ### How To Install
 To Install your own MacOS, You have to follow these steps.
@@ -60,6 +62,8 @@ To fine-tune the system and improve performance, look in the `docs` folder for m
 <br />
 **This code is By** [@Foxlet](https://github.com/foxlet), <b>and the help of many others, 
     But MSX have developed a cleaner version of it, so you can enjoy ! </b>
-    
-    ![alt text](https://raw.githubusercontent.com/msxtm/ScreenShots/master/EasyMacOS_AboutThisMac.png "About This Mac's Screen Shoot")
+<hr></hr>
+
+### Other ScreenShots
+![alt text](https://raw.githubusercontent.com/msxtm/ScreenShots/master/EasyMacOS_AboutThisMac.png "About This Mac's Screen Shoot")
 
