@@ -11,7 +11,7 @@ import requests
 import sys
 
 __author__ = "Foxlet"
-__copyright__ = "Copyright 2019, FurCode Project"
+__copyright__ = "Copyright 2020, FurCode Project"
 __license__ = "GPLv3"
 __version__ = "1.4"
 
