@@ -64,5 +64,5 @@ You're done!
 To fine-tune the system and improve performance, look in the `docs` folder for more information on [adding memory](docs/guide-performance.md), setting up [bridged networking](docs/guide-networking.md), adding [passthrough hardware (for GPUs)](docs/guide-passthrough.md), tweaking [screen resolution](docs/guide-screen-resolution.md), and enabling sound features.
 <br />
 ![alt text](https://raw.githubusercontent.com/msxtm/ScreenShots/master/EasyMacOS_AboutThisMac.png "About This Mac's Screen Shoot")
-
-> CopyRight: This project(macOS Simple KVM) is written By @Foxlet , But MSX have developed it to a cleaner, better version as EasyMacOS, so you can enjoy !
+<br /><br /><br /><br />
+> CopyRight: This project(macOS Simple KVM) is written By @Foxlet , But MSX has developed it to a cleaner, better and more helpful version as EasyMacOS, so you can enjoy !
