@@ -14,6 +14,7 @@ You'll need a Linux system with `qemu` _`(3.1 or later)`_, `python3`, `pip` and 
 
 ### How To Install
 To Install your own MacOS, You have to follow these steps.
+<hr></hr>
 
 #### Step 1
 Run `jumpstart.sh` to download installation media for MacOS (internet required). The default installation uses Catalina, but you can choose which version to get by adding either `--high-sierra`, `--mojave`, or `--catalina`. For example:
@@ -49,6 +50,7 @@ If you're using a cloud-based/headless system, you can use `headless.sh` to set 
 ```
 HEADLESS=1 MEM=2G CPUS=2 SYSTEM_DISK=MyDisk.qcow2 ./headless.sh
 ```
+<hr></hr>
 
 #### Step 3
 
