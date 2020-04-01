@@ -63,6 +63,4 @@ To fine-tune the system and improve performance, look in the `docs` folder for m
 <br />
 ![alt text](https://raw.githubusercontent.com/msxtm/ScreenShots/master/EasyMacOS_AboutThisMac.png "About This Mac's Screen Shoot")
 
-<b>This code is By</b> [@Foxlet](https://github.com/foxlet), <b>and the help of many others, 
-    But MSX have developed a cleaner version of it, so you can enjoy ! </b>
-<hr></hr>
+> CopyRight: This project(macOS Simple KVM) is written By @Foxlet , But MSX have developed it to a cleaner, better version as EasyMacOS, so you can enjoy !
