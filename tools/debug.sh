@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # debug.sh: Checks common virtualization programs and modules.
-# by Foxlet <foxlet@furcode.co>
+# by MSXtm <admin@msxtm.ir>
 
 echo "== Distro Info ==" >&2
 lsb_release -a
